@@ -1,52 +1,54 @@
-/* You can add global styles to this file, and also import other style files */
 
+.my-gap {
+    margin-top: 20px;
+}
 .restaurant-grid {
     display: grid;
     grid-template-columns: repeat(4, minmax(250px, 1fr));
     grid-gap: 20px;
-  }
+}
 
-  .restaurant-card {
+.restaurant-card {
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     overflow: hidden;
-  }
+}
 
-  .restaurant-image {
+.restaurant-image {
     height: 200px;
     overflow: hidden;
-  }
+}
 
-  .restaurant-image img {
+.restaurant-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
+}
 
-  .restaurant-details {
+.restaurant-details {
     padding: 20px;
-  }
+}
 
-  .restaurant-name {
+.restaurant-name {
     font-size: 20px;
     margin: 0;
-  }
+}
 
-  .restaurant-rating {
+.restaurant-rating {
     margin: 10px 0;
-  }
+}
 
-  .rating {
+.rating {
     font-weight: bold;
     margin-right: 5px;
-  }
+}
 
-  .star {
+.star {
     color: orange;
-  }
+}
 
-  .order-btn {
+.order-btn {
     background-color: #00a7e1;
     border: none;
     border-radius: 5px;
@@ -56,90 +58,72 @@
     padding: 10px;
     transition: background-color 0.3s ease;
     width: 100%;
-  }
+}
 
-  .order-btn:hover {
+.order-btn:hover {
     background-color: #0093c6;
-  }
+}
 
 
-  .header {
+.header {
     background-color: #00A7E1;
     color: #fff;
     padding: 20px 0;
-  }
-  
-  .header-container {
+}
+
+.header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-  }
-  
-  .header-logo {
+}
+
+.header-logo {
     font-size: 36px;
     font-weight: bold;
     margin: 0;
-  }
-  
-  .header-nav ul {
+}
+
+.header-nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
-  }
-  
-  .header-nav li {
+}
+
+.header-nav li {
     margin-right: 20px;
-  }
-  
-  .header-nav a {
+}
+
+.header-nav a {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
     font-weight: 600;
     transition: all 0.3s ease;
-  }
-  
-  .header-nav a:hover {
+}
+
+.header-nav a:hover {
     color: #E7F9FF;
-  }
-  
-  @media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 768px) {
     .header-container {
-      flex-direction: column;
-      text-align: center;
+        flex-direction: column;
+        text-align: center;
     }
-  
+
     .header-nav {
-      margin-top: 20px;
+        margin-top: 20px;
     }
-  
+
     .header-nav ul {
-      display: block;
+        display: block;
     }
-  
+
     .header-nav li {
-      margin: 10px 0;
+        margin: 10px 0;
     }
-  }
-
-
-.user-circle {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: #f2f2f2;
 }
-
-.username {
-  font-size: 14px;
-  font-weight: bold;
-  margin-left: 10px;
-}
-  
