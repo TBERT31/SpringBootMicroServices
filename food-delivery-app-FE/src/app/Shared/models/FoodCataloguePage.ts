@@ -3,5 +3,5 @@ import { Restaurant } from "./Restaurant";
 
 export interface FoodCataloguePage{
     foodItemsList:FoodItem[];
-    restaurant:Restaurant;
+    restaurant:Restaurant | null;
 }

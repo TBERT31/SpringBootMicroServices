@@ -4,7 +4,7 @@ export interface FoodItem {
     itemDescription?: string;
     isVeg?: boolean;
     price?: number;
-    restaurantId?: number;
+    restaurantId?: number | null;
     quantity: number;
 }
 
