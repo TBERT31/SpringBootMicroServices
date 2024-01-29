@@ -20,7 +20,7 @@ import { OrderSummaryModule } from './order-summary/order-summary.module';
     RestaurantListingModule,
     HttpClientModule,
     FoodCatalogueModule,
-    
+    OrderSummaryModule
   ],
   providers: [],
   bootstrap: [AppComponent]
