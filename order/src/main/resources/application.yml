@@ -17,4 +17,3 @@ spring:
       database: orderdb
       repositories:
         enabled: true
-        
