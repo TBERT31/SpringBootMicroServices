@@ -1,4 +1,4 @@
-package com.codedecode.foodcatalogue;
+package com.codedecode.order;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,10 +7,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
-public class FoodCatalogueMicroserviceApplication {
+public class OrderMsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FoodCatalogueMicroserviceApplication.class, args);
+		SpringApplication.run(OrderMsApplication.class, args);
 	}
 
 	@Bean
